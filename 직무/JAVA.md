@@ -7,7 +7,12 @@
    <summary><strong>Java의 Collection에 대해서 설명해 주세요.</strong></summary>
 <hr>
    <p>여러 데이터를 담을 수 있는 자료구조</p>
-   <p>list, set 등이 있음</p>
+   <p>collection인터페이스는 list+set+queue크게 3가지로 분리할 수 있습니다.Map같은 경우에도 인터페이스의 상속을 받고 있지는 않지만 collection으로 분류됩니다.
+   </p>
+   <p>set은 순서를 유지하지 않는 데이터의 집합으로 중복을 허용하지 않습니다.(Hashset,Treeset)</p>
+   <p>List는 순서가 있는 데이터 집합으로 데이터의 중복을 허용합니다.(Linkedlist,Vecor,Arraylist)</p>
+   <p>queue는 list와 유사합니다.(Linkedlist,Priorityqueue)</p>
+   <p>Map은 key,value의 쌍으로 이루어진 데이터 집합으로 순서는 유지되지 않으며 키의 중복은 허용되지 않으나 value의 중복을 허용됩니다.(Hashtable,Hashmap,Treemap)</p>
 <hr>
 </details>
 
