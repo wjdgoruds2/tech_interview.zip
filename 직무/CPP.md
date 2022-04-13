@@ -59,10 +59,11 @@
 <details>
    <summary><strong><code>malloc</code>과 <code>new</code>의 차이는 무엇인가?</strong></summary>
    <hr>
+  1. malloc은 라이브러리 제공 함수로, stdlib.h 을 include 해주어야 사용 가능하지만, new는 기본으로 제공하는 키 워드이므로 별도의 라이브러리 추가 없이 바로 사용 가능합니다.
+  
+   malloc은 함수이다. 함수 내에서 메모리를 할당한다.(동적으로 메모리 할당+ 초기값 지정 x)
 
-   malloc은 함수이다. 함수 내에서 메모리를 할당한다.
-
-   new는 연산자이다. 생성자를 호출하면서 메모리를 할당한다.
+   new는 연산자이다. 생성자를 호출하면서 메모리를 할당한다.(할당과 동시에 초기화 가능+반드시 delete)
 
    <hr>
 </details>
