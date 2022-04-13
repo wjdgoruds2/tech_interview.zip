@@ -23,6 +23,7 @@
    <summary><strong>Wrapper Class란 무엇인가요?</strong></summary>
 <hr>
    <p>java에는 primitive type과 reference type이 있습니다. </p>
+   <p>기본 타입의 데이터를 객체로 표현해야하는 경우가 있습니다.따라서 기본 자료타입을 객체로 다루기 위해서 사용하는 클래스들을 래퍼 클래스라고 합니다.</p>
    <p>primitive type의 경우 NULL 값을 담지 못하고, 제네릭 프로그래밍에 쓰지 못한다는 특징이 있는데, 이러한 경우와 같이 데이터를 객체로 표현해야 할 때 쓰이는 것이 Wrapper입니다.</p>
 <hr>
 </details>
@@ -33,8 +34,8 @@
 <details>
    <summary><strong>직렬화(Serialization)과 역직렬화(Deserialization)에 대해서 설명해 주세요.</strong></summary>
 <hr>
-   <p><strong>직렬화 </strong>: 데이터를 연속적인 데이터로 변형하는 것</p>
-   <p><strong>역직렬화 </strong>: 직렬화된 데이터를 변환하여 객체의 형태로 표현하는 것</p>
+   <p><strong>직렬화 </strong>: 데이터를 연속적인 데이터로 변형하는 것으로 객체를 통째로 파일로 저장하거나 전송하고 싶을때 주고 사용합니다.</p>
+   <p><strong>역직렬화 </strong>: 직렬화된 데이터를 변환하여 다시 객체의 형태로 표현하는 것으로 저장된 파일을 읽거나 전송된 스트림 데이터를 읽어 원래 객체의 형태로 복원합니다.</p>
 <hr>
 </details>
 
@@ -81,7 +82,7 @@
 
 `==`
 
-- 참조 비교 : 두 객체가 같은 메모리 공간을 가리키는 지 확인
+- 참조 비교 : 두 객체가 같은 메모리 공간을 가리키는 지 확인(참조(주소)값을 비교하는 연산자)
 
 `equals()`
 
