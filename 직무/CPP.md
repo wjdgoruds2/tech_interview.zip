@@ -48,7 +48,8 @@
 <details>
   <summary><code>\n</code>과 <code>endl</code>의 차이는 무엇인가?</summary>
   <hr>
-
+      endl=버퍼를 비우는 것 (버퍼는 임시공간 stdout 버퍼를 비우면, 화면으로 그 내용이 출력된다. 이를 flush 합니다 )
+      따라서 버터를 비우지 않는 ln이 더욱 빠릅니다.
   <hr>
 </details>
 
